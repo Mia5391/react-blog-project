@@ -12,7 +12,9 @@ class NewPost extends Component {
 
     }
     componentDidMount(){
+        // if !auth =>this.props.history.replace('/posts');
         console.log(this.props);
+
     }
 
     postPostHandler = () => {
